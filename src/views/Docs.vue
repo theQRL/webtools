@@ -6,7 +6,7 @@
       <div class="space-y-8">
         <p>QRL Web Tools is a collection of browser-based utilities for the Quantum Resistant Ledger. For maximum security when generating wallets, it is designed to be used in an offline environment. It is recommended to use this software from a bootable OS (e.g. Desktop Ubuntu distribution) without any network connection.</p>
 
-        <p>To run offline, download the latest .zip file from the <a class="link link-primary" href="https://github.com/theQRL/qrl-webtools/releases">GitHub Releases</a> page, extract the zip then run the index.html file in your browser.</p>
+        <p>To run offline, download the latest .zip file from the <a class="link link-primary" href="https://github.com/theQRL/webtools/releases">GitHub Releases</a> page, extract the zip then run the index.html file in your browser.</p>
 
         <!-- Address Validator -->
         <div class="collapse collapse-arrow bg-base-100">
