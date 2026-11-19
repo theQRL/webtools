@@ -37,9 +37,9 @@
     "@playwright/test": "1.65.0",
     "@tailwindcss/postcss": "4.3.5",
     "@theqrl/wallet-helpers": "4.0.0",
-    "@vitejs/plugin-vue": "6.0.10",
+    "@vitejs/plugin-vue": "6.0.11",
     "@vue/compiler-sfc": "3.5.45",
-    "daisyui": "5.7.50",
+    "daisyui": "5.8.0",
     "eslint": "10.14.0",
     "eslint-plugin-vue": "10.12.1",
     "globals": "17.14.0",
@@ -47,7 +47,7 @@
     "postcss": "8.5.32",
     "postcss-custom-properties": "15.0.4",
     "tailwindcss": "4.3.5",
-    "vite": "8.3.7",
+    "vite": "8.3.8",
     "vue-eslint-parser": "10.4.2"
   }
 }
