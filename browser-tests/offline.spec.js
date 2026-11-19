@@ -178,7 +178,11 @@ test('secret-bearing inputs are not stored, transmitted or mangled by the browse
     const read = (fn) => { try { return fn(); } catch (e) { return `unavailable (${e.name})`; } };
     return {
       local: read(() => window.localStorage.length),
-      session: read(() => window.sessionStorage.length),
+      // Vue Router 5.5 writes an empty scroll-position map on navigation.
+      // Permit only that exact empty metadata value, never arbitrary contents.
+      session: read(() => Object.keys(window.sessionStorage).filter(
+        (key) => key !== 'vue-router:scroll' || window.sessionStorage.getItem(key) !== '{}',
+      ).length),
       cookie: read(() => document.cookie),
     };
   });
